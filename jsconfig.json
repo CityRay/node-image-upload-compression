@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "index.js",
+        "router_v1.js",
+        "libs/"
+    ]
+}
