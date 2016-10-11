@@ -1,0 +1,41 @@
+{
+  "name": "node-image-upload-compression",
+  "version": "1.0.0",
+  "description": "node upload & compression, contain jpg png gif",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": {
+    "name": "Ray Lin",
+    "email": "ray102467@gmail.com",
+    "url": "https://github.com/cityray"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "imagemin": "^5.2.2",
+    "imagemin-gifsicle": "^5.1.0",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-pngquant": "^5.0.0",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0",
+    "uuid": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CityRay/R-WorkFlow-Electron-Gulp.git"
+  },
+  "keywords": [
+    "image",
+    "upload",
+    "compression"
+  ],
+  "devEngines": {
+    "node": "6.x",
+    "npm": "2.x || 3.x"
+  }
+}
